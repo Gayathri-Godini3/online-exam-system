@@ -1,0 +1,9 @@
+✗ git commit
+hint: Waiting for your editor to close the file... code or code-insiders is not installed
+error: There was a problem with the editor 'code --wait'.
+Please supply the message using either -m or -F option.
+➜  workspace git:(main) ✗ git commit -m "commit changes"
+[main 600c94a] commit changes
+➜  workspace git:(main) git push origin main          
+Everything up-to-date
+➜  workspace git:(main) 
