@@ -7,6 +7,7 @@ const Welcome = () => {
   return (
     <Container className="text-center mt-5">
       <div className="p-5 bg-light rounded-3">
+        
         <h1>Welcome to the Online Examination System</h1>
         <p>Your solution for secure and efficient online assessments.</p>
         <p>
