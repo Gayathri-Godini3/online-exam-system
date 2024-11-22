@@ -8,7 +8,8 @@ import Welcome from "./components/Welcome";
 import AdminDashboard from "./pages/AdminDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import TeacherDashboard from "./pages/TeacherDashboard";
-import AddFaculty from "./pages/AddFaculty";
+import AddFaculty from "./components/AddFaculty";
+import FacultyList from "./components/FacultyList";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/studentdashboard" element={<StudentDashboard />} />
         <Route path="/teacherdashboard" element={<TeacherDashboard />} />
         <Route path="/add-faculty" element={<AddFaculty />} />
+        <Route path="/faculty-list" element={<FacultyList />} />
       </Routes>
     </Router>
   );
